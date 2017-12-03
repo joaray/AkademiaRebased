@@ -3,18 +3,20 @@
 This is game TIC TAC TOE
 
 Player 1 use X
+
 Player 2 use O
 
-You play just by putting name of the field. 
+You play just by putting address of the field (e.g. A1)
 
-Yout board looks like:
+Your board looks like:
+
  | A | B | C |
  -------------
-1|   |   |   |
+1|  
  -------------
-2|   |   |   |
+2|  
  -------------
-3|   |   |   |
+3|   
  -------------
 
 HAVE FUN!
