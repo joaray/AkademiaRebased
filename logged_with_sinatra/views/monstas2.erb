@@ -1,0 +1,10 @@
+<% if @user_password==@password[-1] %>
+    <h1>Your password: <%= @user_password %>!</h1>
+  <%else%>
+    <h1> GIVE A PASSWORD </h1>
+<% end %>
+
+<form action="/monstas">
+  <input type="text" name="user_password">
+  <input type="submit">
+</form>
