@@ -24,5 +24,5 @@ Your board looks like:
 ###HAVE FUN!
 
 ##EX 2
-
+ 
 ###This is app to print BST from given array.
