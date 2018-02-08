@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Amatic+SC" rel="stylesheet">
+        <link href="/style.css" rel="stylesheet" type="text/css">
+        <title>Life game</title>
+    </head>
+  <body>
+    <header>
+      <h1>Life game</h1>
+    </header>
+    <article>
+      <% board_to_show = @game.board %>
+        <form action="/" method="post">
+          <% board_to_show.each do |row| %>
+            <% row.each do |cell| %>
+              <% if cell == 0 %>
+                  <input type="hidden" name="board_to_show[]"  value="OFF">
+                  <input type="checkbox" name="board_to_show[]" value=1>
+              <% else %>
+                  <input type="hidden" name="board_to_show[]"  value="OFF">
+                  <input type="checkbox" name="board_to_show[]" value=1 checked>
+                <% end %>
+            <% end %>
+            </br>
+          <% end %>
+        </br>
+          <input type='submit' value='next iteration' />
+        </form>
+
+        <form action="/start" method="post">
+          <input type='submit'value="start board"/>
+        </form>
+
+        <form action="/clear" method="post">
+          <input type='submit'value="clear board"/>
+        </form>
+
+
+    </article>
+    </body>
+
+</html>
