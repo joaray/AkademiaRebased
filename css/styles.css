@@ -1,0 +1,139 @@
+body {
+  background-color: #f2f2f2;
+  font-size: 1em;
+  margin: 0;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+header {
+  height: 40px;
+  background-color: white;
+  padding: 12px;
+  line-height: 40px;
+}
+
+header ul {
+  float: left;
+}
+
+header li + li::before {
+    content: " | ";
+    margin: 5px;
+}
+
+header li {
+  display: inline;
+}
+
+header img {
+  float: right;
+}
+
+article {
+  margin-top: 10px;
+  padding: 2%;
+  float: left;
+}
+
+main {
+  float: left;
+  width: 75%;
+}
+
+main form {
+  background-color: white;
+  border: #cccccc solid;
+  padding: 10px;
+}
+
+main button {
+  float: right;
+  margin-top: 20px;
+  margin-right: -12px;
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  border: #cccccc solid;
+}
+
+.options {
+  float: left;
+  width: 40%;
+  height: 240px;
+  line-height: 80px;
+  padding-left: 100px;
+}
+
+select {
+  height: 30px;
+  width: 240px;
+  -webkit-appearance: none;
+  font-size: 0.8em;
+  border-radius: 0px;
+  background: white;
+  padding-left: 5px;
+  background-image: url(images/arrow_black.png);
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.extras {
+  float: left;
+  width: 50%;
+  height: 240px;
+  line-height: 60px;
+}
+
+.extras input {
+  width: 55%;
+  height: 20px;
+  margin-right: 200px;
+}
+
+.more-info:before {
+  content: url(images/sign.png);
+  color:red;
+  margin-right: 2px;
+}
+form hr {
+  clear: both;
+  width: 100%;
+}
+
+form p {
+  clear: both;
+  width: 100%;
+}
+aside {
+  float: right;
+  width: 24%;
+}
+
+aside input {
+  border-radius: 10px;
+  border: 0;
+  width: 100%;
+  height: 25px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+aside ul{
+  background-color: white;
+  width: 95%;
+  border: #cccccc solid;
+  padding-left: 20px;
+}
