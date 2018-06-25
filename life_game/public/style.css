@@ -1,0 +1,71 @@
+body {
+    height: 100%;
+    vertical-align: middle;
+    background-image: url(background.jpg);
+}
+
+h1 {
+    color: cadetblue;
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 150%;
+    letter-spacing: 150%;
+    margin: 1%;
+}
+
+article {
+    width: 55%;
+    border: 1px dashed cadetblue;
+    border-radius: 25px;
+    background-color: lightgray;
+    opacity: 0.8;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+    line-height: 3.8%;
+}
+
+input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    -webkit-appearance: unset;
+    -moz-appearance: unset;
+    background-color: lavender;
+    border: 1px solid cadetblue;
+    border-radius: 2px;
+    box-shadow: 1px 1px gray;
+    margin: 0.8px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+}
+
+input[type="submit"] {
+    width: 20%;
+    -webkit-appearance: unset;
+    -moz-appearance: unset;
+    display: inline-block;
+    border: 2px solid lightblue;
+    background-color: lightcyan;
+    color: steelblue;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 100%;
+    box-shadow: 2px 2px lightsteelblue;
+    padding: 0.5%;
+    margin-left: 10%;
+    margin-top: 2.5%;
+    float: left;
+}
+
+input[type="submit"]:hover {
+    background-color: cadetblue;
+    color: lightblue;
+}
+
+input[type="submit"]:active {
+    border: 2px solid lightblue;
+    background-color: lightblue;
+}
