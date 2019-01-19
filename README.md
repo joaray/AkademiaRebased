@@ -1,8 +1,8 @@
 # README
 
-##EX1
+## EX1
 
-###This is game TIC TAC TOE
+### This is game TIC TAC TOE
 
 Run game by: `ruby game.rb`
 
@@ -23,8 +23,8 @@ Your board looks like:
 3|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
   -------------
 
-###HAVE FUN!
+### HAVE FUN!
 
-##EX 2
+## EX 2
  
-###This is app to print BST from given array.
+### This is app to print BST from given array.
