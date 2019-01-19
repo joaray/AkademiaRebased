@@ -15,23 +15,23 @@ def hashed_password(user_password)
   salt+":"+hashed_password+":"+timestamp
 end
 
-puts "Podaj nowe hasło"
+puts "Give a new password"
 input = gets.chomp
 
 if input == input.strip
   unless input.to_s.empty?
-    puts "Potwiedź - podaj hasło ponownie"
+    puts "Confirm - give the new password again"
     input2 = gets.chomp
 
     if input == input2
       string =  hashed_password(input2)
       store_new_password("password2.txt",string)
     else
-      puts "Hasła się nie zgadzają"
+      puts "Password confirmation doesn't match Password"
     end
   else
-    puts "Hasło jest puste"
+    puts "Password can't be empty"
   end
 else
-  puts "Nie używaj spacji"
+  puts "Don't use spaces"
 end
